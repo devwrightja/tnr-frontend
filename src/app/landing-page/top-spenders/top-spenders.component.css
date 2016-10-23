@@ -1,0 +1,12 @@
+.top-spenders-container {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+thead {
+  background: #ae376b;
+  color: #fff;
+}
+.pink {
+  background: #ae376b;
+}

@@ -1,0 +1,42 @@
+<div class="container-fluid">
+  <div class="padding">
+    <div class="col-md-4 landing-subheader-tnr">
+      <div class="header">NEWSPAPER . TELEVISION . RADIO
+        <div class="subheader">A TRADITIONAL MEDIA MARKETING TOOL</div>
+      </div>
+    </div>
+    <div class="col-md-6 offset-md-2 landing-subheader-tnr">
+      <div class="buttons">
+        <button type="button" class="btn tff-button">Try For Free</button>
+        <button type="button" class="btn sbsc-button" data-toggle="modal" data-target="#subscribeModal">Subscribe</button>
+        <button type="button" class="btn cli-button">Client Log In</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Subscribe to our newsletter!</h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="name" class="form-label">First Name:</label>
+          <input class="form-control" type="text" id="name" #name>
+          <br>
+          <label for="email" class="form-label">Email:</label>
+          <input class="form-control" type="email" id="email" #email>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button (click)="onSubmit(name.value, email.value)" type="button" class="btn btn-primary">Subscribe!</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url('../../../assets/fonts/BebasNeue.otf');
+}
+.try-container {
+  height: 253px;
+  background: #313131 url("../../../assets/images/home/try-banner.png") no-repeat;
+  background-position: right;
+}
+.header {
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+}
+.sub-header {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.content {
+  color: #fff;
+  padding-left: 40px;
+  padding-top: 25px;
+}
+p {
+  margin: 0;
+}
+.top-spenders {
+  margin-top: 95px;
+  font-size: 29px;
+  font-family: "Roboto", sans-serif;
+}
+.input {
+  margin-top: 99px;
+}
+.ttf-button {
+  border: solid 3px rgb(126, 143, 15);
+  background: rgb(204, 223, 76);
+  width: 165px;
+  height: 44px;
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+}

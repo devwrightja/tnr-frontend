@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <div class="top-spenders-container">
+    <table class="table">
+        <thead>
+          <th>Business</th>
+          <th># Of placements</th>
+        </thead>
+      <tbody>
+        <tr *ngFor="let spender of spenders">
+          <td>{{ spender.brand }}</td>
+          <td>{{ spender.count }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

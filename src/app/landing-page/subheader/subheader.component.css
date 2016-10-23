@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url('../../../assets/fonts/BebasNeue.otf');
+}
+.landing-subheader-tnr {
+  display: flex;
+  align-items: center;
+}
+.header {
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+.subheader {
+  width: inherit;
+  font-size: 11px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+.tff-button {
+  border: solid 3px rgb(123, 112, 255);
+  background: rgb(84, 71, 233);
+  font-family: "Bebas Neue", sans-serif;
+  color: rgb(255, 255, 255);
+  height: 44px;
+  width: 165px;
+}
+.sbsc-button {
+  border: solid 3px rgb(156, 23, 23);
+  background: rgb(196, 25, 25);
+  font-family: "Bebas Neue", sans-serif;
+  color: rgb(255, 255, 255);
+  height: 44px;
+  width: 165px;
+}
+.cli-button {
+  border: solid 3px rgb(63, 54, 166);
+  background: rgb(255, 255, 255);
+  font-family: "Bebas Neue", sans-serif;
+  color: rgb(63, 54, 166);
+  height: 44px;
+  width: 165px;
+}
+.buttons button {
+  margin-left: 10px;
+  border-radius: 0;
+}
